@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="ex4.js"></script>
+    <title>Exercise 4</title>
+    <style>
+        nav {
+            column-count: 4;
+            background-color: rgb(0, 81, 186);
+            padding-left: 20%;
+            padding-right: 10%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin-bottom: 1%;
+        }
+        a {
+            color: white;
+        }
+        
+        a:hover {
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="words">Lab08 - Exercise 4</h1>
+    <h2 class="words">CSS Manipulation</h2>
+    <nav>
+        <div>
+            <a href="ex1.html">Exercise 1</a>
+        </div>
+        <div>
+            <a href="ex2.html">Exercise 2</a>
+        </div>
+        <div>
+            <a href="ex3.html">Exercise 3</a>
+        </div>
+        <div>
+            <a href="ex4.html">Exercise 4</a>
+        </div>
+    </nav>
+    <div>
+        <p id="text" style="border-style: solid;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus eget urna nec luctus. 
+            Cras a malesuada arcu. Etiam orci leo, tempor rutrum gravida sit amet, ultricies ut justo. 
+            Fusce accumsan eros sem, eu ultrices leo imperdiet sit amet. Duis sit amet nulla velit. 
+            Integer bibendum mi et ligula viverra, in rutrum dolor accumsan. 
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+            Morbi sodales purus non sapien mollis laoreet. Quisque non felis ac tellus luctus accumsan eu eget turpis. 
+            Morbi quis tortor maximus, elementum dolor non, ultrices metus. Etiam lobortis dui sed lorem tincidunt, eu pretium dui convallis.
+            Praesent vitae placerat turpis. Sed interdum sagittis mauris, quis dignissim ex malesuada ac.</p>
+    </div>
+    
+        <div>
+            <label for="border">Enter border color (red/green/blue) or width (in px): </label>
+            <input type="text" id="border" name="border">
+        </div>
+        <div>
+            <label for="background">Enter background color (red/green/blue) or width (in px): </label>
+            <input type="text" id="background" name="background">
+        </div>
+        <button id="change">Change border and background</button>
+</body>
+</html>

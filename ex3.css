@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZCwhebc1gxtrlQydNZyqjz_v_Xm1jVs58cw&usqp=CAU);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.words {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#paragraph {
+    background-color: rgba(245, 245, 245, 0.418);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav {
+    column-count: 4;
+    background-color: rgb(0, 81, 186);
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
